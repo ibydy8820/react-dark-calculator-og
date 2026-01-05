@@ -7,11 +7,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Базовая палитра для темной темы калькулятора
-        background: '#171717', // neutral-900
-        surface: '#262626',    // neutral-800
-        primary: '#f59e0b',    // amber-500
-        secondary: '#404040',  // neutral-700
+        // Кастомная палитра для "Dark Calculator"
+        dark: {
+          bg: '#1a1a1a',
+          card: '#242424',
+          display: '#2f2f2f',
+          btn: '#3a3a3a',
+          btnHover: '#4a4a4a',
+          accent: '#646cff',
+          accentHover: '#535bf2',
+          text: '#ffffff',
+          textMuted: '#a1a1aa'
+        }
       }
     },
   },
